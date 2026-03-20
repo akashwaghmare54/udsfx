@@ -1,8 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Happy Moment Creator (udsfx)
 
-## Getting Started
+A premium event decoration portfolio and service showcase website. This project is built with Next.js, designed to offer an immersive user experience with fluid animations, smooth scrolling, and interactive elements.
 
-First, run the development server:
+## 📸 Screenshot
+![Website Screenshot](./public/udsfx.png)
+
+## � Features
+
+- **Modern Tech Stack**: Built with Next.js (App Router), TypeScript, and Tailwind CSS.
+- **Smooth Scrolling**: Integrated `@studio-freight/lenis` for silky smooth scroll experiences.
+- **Advanced Animations**: Powered by GSAP (GreenSock Animation Platform) and ScrollTrigger.
+- **Interactive UI Elements**:
+  - **Custom Cursors**: Animated and Golden cursor effects.
+  - **Background Effects**: Fluid simulation and sparkles for visual depth.
+  - **Spotlight & Mouse Glow**: Interactive lighting effects following user interaction.
+- **Responsive Sections**: Includes Hero, About, Services, Gallery, Packages, Testimonials, and Contact modules.
+- **Font Optimization**: Uses `next/font` with **Fredoka** and **Poppins**.
+- **Analytics**: Integrated Vercel Analytics.
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 14+
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animation**: GSAP, Lenis
+- **Deployment**: Vercel
+
+## 📦 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+- Node.js (v18.17.0 or later recommended)
+- Package manager (npm, yarn, pnpm, or bun)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd udsfx
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   # or
+   bun install
+   ```
+
+### 🏃‍♂️ Running the Development Server
+
+Start the local development server:
 
 ```bash
 npm run dev
