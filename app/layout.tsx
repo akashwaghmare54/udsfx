@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { ReactNode } from "react";
 
+import { Analytics } from "@vercel/analytics/next"
+
 import AnimatedCursor from "./components/AnimatedCursor";
 import SmoothScroll from "./SmoothScroll";
 import Spotlight from "./components/Spotlight";
@@ -44,6 +46,7 @@ export default function RootLayout({
       className={`${fredoka.variable} ${poppins.variable} dark`}
     >
       <body className="bg-black text-white">
+        <Analytics />
 
         {/* 🔥 MAIN BACKGROUND */}
         <FluidSimulation />
