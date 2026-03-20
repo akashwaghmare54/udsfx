@@ -2,10 +2,9 @@
 
 A premium event decoration portfolio and service showcase website. This project is built with Next.js, designed to offer an immersive user experience with fluid animations, smooth scrolling, and interactive elements.
 
-## 📸 Screenshot
-![Website Screenshot](./public/udsfx.png)
+![Portfolio Screenshot](./public/udsfx.png)
 
-## � Features
+## ✨ Features
 
 - **Modern Tech Stack**: Built with Next.js (App Router), TypeScript, and Tailwind CSS.
 - **Smooth Scrolling**: Integrated `@studio-freight/lenis` for silky smooth scroll experiences.
